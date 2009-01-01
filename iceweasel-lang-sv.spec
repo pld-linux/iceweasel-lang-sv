@@ -1,10 +1,10 @@
 %define		_lang		sv
 Summary:	Swedish resources for Iceweasel
-Summary(pl.UTF-8):	Szwedzkie pliki językowe dla Iceweasel
+Summary(pl.UTF-8):	Szwedzkie pliki językowe dla Iceweasela
 Name:		iceweasel-lang-%{_lang}
 Version:	3.0.5
 Release:	1
-License:	GPL
+License:	MPL 1.1 or GPL v2+ or LGPL v2.1+
 Group:		I18n
 Source0:	http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/%{version}/linux-i686/xpi/sv-SE.xpi
 # Source0-md5:	4cba2858a9a316ac2514d8f5d39175f8
@@ -25,7 +25,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Swedish resources for Iceweasel.
 
 %description -l pl.UTF-8
-Szwedzkie pliki językowe dla Iceweasel.
+Szwedzkie pliki językowe dla Iceweasela.
 
 %prep
 
