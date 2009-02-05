@@ -2,12 +2,12 @@
 Summary:	Swedish resources for Iceweasel
 Summary(pl.UTF-8):	Szwedzkie pliki językowe dla Iceweasela
 Name:		iceweasel-lang-%{_lang}
-Version:	3.0.5
+Version:	3.0.6
 Release:	1
 License:	MPL 1.1 or GPL v2+ or LGPL v2.1+
 Group:		I18n
 Source0:	http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/%{version}/linux-i686/xpi/sv-SE.xpi
-# Source0-md5:	4cba2858a9a316ac2514d8f5d39175f8
+# Source0-md5:	668cef8a57a6fdbef7fa2451d3a9834f
 URL:		http://www.mozilla.org/
 BuildRequires:	sed >= 4.0
 BuildRequires:	unzip
